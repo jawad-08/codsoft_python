@@ -60,20 +60,20 @@ A **Contact Book App** to manage and store contacts securely with validation.
    ```bash
    git clone https://github.com/<your-username>/codsoft_python.git
    cd codsoft_python
-
+   ```
 2. Create & activate virtual environment:
     ```bash
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   ```
 3. Install dependencies (example for To-Do List):
     ```bash
-pip install -r projects\02_todo_list\requirements.txt
-
+      pip install -r projects\02_todo_list\requirements.txt
+   ```
 4. Run the app:
     ```bash
-streamlit run projects\02_todo_list\app.py
-
+   streamlit run projects\02_todo_list\app.py
+   ```
 📌 Notes
 
 Each project folder contains its own README.md and requirements.txt.
